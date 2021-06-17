@@ -39,7 +39,7 @@ Data
 
 Below is the given data for the eight processes that will be used to simulate the three different CPU scheduling algorithms. Here is the format of the given processes: 
 
-Process Name/Number {CPU burst, I/O time, I/O time,........, last CPU burst} 
+Process Name/Number {CPU burst, I/O time, CPU burst,........, last CPU burst} 
 
 P1 {5, 27, 3, 31, 5, 43, 4, 18, 6, 22, 4, 26, 3, 24, 4}
 
