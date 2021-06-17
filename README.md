@@ -2,7 +2,12 @@
 
 Introduction
 
-	In this project, three different CPU scheduling algorithms will be implemented using a desired programming language. In this case, Python. The three different CPU scheduling algorithms that will be implemented are: first come first served (FCFS), shortest job first (SJF), and multilevel feedback queue (MLFQ). Once implemented, each scheduling algorithm will be simulated using eight different process, each containing different amounts of CPU and I/O bursts. The simulation for each scheduling algorithm will include calculating the overall CPU utilization and the total and average, waiting time, turnaround time, and response time for all eight processes. The performance of each scheduling algorithm will then be evaluated and compared. The objective of this assignment is to learn more about OS scheduling through a hands-on simulation programming experience.
+In this project, three different CPU scheduling algorithms will be implemented using a desired programming language. In this case, Python. The three different CPU
+scheduling algorithms that will be implemented are: first come first served (FCFS), shortest job first (SJF), and multilevel feedback queue (MLFQ). Once
+implemented, each scheduling algorithm will be simulated using eight different process, each containing different amounts of CPU and I/O bursts. The simulation for
+each scheduling algorithm will include calculating the overall CPU utilization and the total and average, waiting time, turnaround time, and response time for all
+eight processes. The performance of each scheduling algorithm will then be evaluated and compared. The objective of this assignment is to learn more about OS
+scheduling through a hands-on simulation programming experience.
 	Each of the CPU scheduling algorithms that will be implemented will be done so with the following assumptions:
 
 1.	All processes are activated at time 0
@@ -23,13 +28,17 @@ Also, higher queues will have absolute priority and all process will initially b
 
 Methodology
 
-	The varying CPU scheduling algorithms will be implemented using Repl.it. This is an online integrated development environment. Each CPU algorithm implementation will be coded separately. This means three different programs. The given information on the eight different processes, CPU and I/O bursts, will be hard coded into each program. Once each program is written, one simply has to run the program on the Repl.it IDE. Both dynamic and final information for the eight processes will print to screen for each respective CPU algorithm. 
+The varying CPU scheduling algorithms will be implemented using Repl.it. This is an online integrated development environment. Each CPU algorithm implementation
+will be coded separately. This means three different programs. The given information on the eight different processes, CPU and I/O bursts, will be hard coded into
+each program. Once each program is written, one simply has to run the program on the Repl.it IDE. Both dynamic and final information for the eight processes will
+print to screen for each respective CPU algorithm. 
 
 
 
 Data
 
-	Below is the given data for the eight processes that will be used to simulate the three different CPU scheduling algorithms. Here is the format of the given processes: 
+Below is the given data for the eight processes that will be used to simulate the three different CPU scheduling algorithms. Here is the format of the given processes: 
+
 Process Name/Number {CPU burst, I/O time, I/O time,........, last CPU burst} 
 P1 {5, 27, 3, 31, 5, 43, 4, 18, 6, 22, 4, 26, 3, 24, 4}
 P2 {4, 48, 5, 44, 7, 42, 12, 37, 9, 76, 4, 41, 9, 31, 7, 43, 8}
