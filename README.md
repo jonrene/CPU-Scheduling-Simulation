@@ -4,7 +4,7 @@ Introduction
 
 In this project, three different CPU scheduling algorithms will be implemented using a desired programming language. In this case, Python. The three different CPU
 scheduling algorithms that will be implemented are: first come first served (FCFS), shortest job first (SJF), and multilevel feedback queue (MLFQ). Once
-implemented, each scheduling algorithm will be simulated using eight different process, each containing different amounts of CPU and I/O bursts. The simulation for
+implemented, each scheduling algorithm will be simulated using eight different processes,each containing different amounts of CPU and I/O bursts. The simulation for
 each scheduling algorithm will include calculating the overall CPU utilization and the total and average, waiting time, turnaround time, and response time for all
 eight processes. The performance of each scheduling algorithm will then be evaluated and compared. The objective of this assignment is to learn more about OS
 scheduling through a hands-on simulation programming experience.
