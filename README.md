@@ -1,5 +1,9 @@
 # CPU-Scheduling-Simulation
 
+# Each CPU scheduling algorithm implementation is in its own labeled file
+# Read file "OS Programming Assignment" to understand more
+
+
 Introduction
 
 In this project, three different CPU scheduling algorithms will be implemented using a desired programming language. In this case, Python. The three different CPU
